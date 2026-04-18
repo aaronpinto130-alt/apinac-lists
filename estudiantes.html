@@ -6,30 +6,127 @@
     <title>Lista - APINAC</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        :root { --bg: #0d1117; --card: #161b22; --text: #c9d1d9; --accent: #58a6ff; }
-        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); padding: 20px; }
+        /* ESTILOS EXACTOS BASADOS EN TU index.html (image_0.png) */
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --text: #c9d1d9;
+            --accent: #58a6ff;
+            --sub-text: #8b949e;
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+            padding: 20px; 
+            margin: 0;
+            line-height: 1.4;
+        }
         .container { max-width: 500px; margin: auto; }
-        .back { color: var(--accent); text-decoration: none; font-size: 0.8rem; display: block; margin-bottom: 20px; }
-        .card { background: var(--card); border: 1px solid #30363d; border-radius: 12px; padding: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
-        button { background: transparent; border: 1px solid var(--accent); color: var(--accent); padding: 6px 12px; border-radius: 8px; cursor: pointer; font-size: 0.8rem; }
+        
+        header { text-align: center; margin-bottom: 25px; }
+        .back-link { 
+            color: var(--accent); 
+            text-decoration: none; 
+            font-size: 0.8rem; 
+            display: inline-block; 
+            margin-bottom: 15px;
+        }
+        
+        h2 { 
+            font-size: 1.2rem; 
+            color: #fff; 
+            margin: 0; 
+            font-weight: 600;
+        }
+        .info-label { font-size: 0.8rem; color: var(--sub-text); margin-top: 5px; display: block; }
+        
+        .estudiante-list { margin-top: 15px; }
+        
+        .card-estudiante { 
+            background: var(--card); 
+            border: 1px solid #30363d; 
+            border-radius: 12px; 
+            padding: 14px 16px; 
+            margin-bottom: 10px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        .nombre-label { font-size: 0.9rem; font-weight: 400; color: #fff; }
+        
+        .btn-ficha { 
+            background: transparent; 
+            border: 1px solid var(--accent); 
+            color: var(--accent); 
+            padding: 6px 14px; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            font-size: 0.8rem; 
+            transition: background 0.2s;
+        }
+        .btn-ficha:active { background: rgba(88, 166, 255, 0.1); }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <a href="index.html" class="back">← Volver</a>
-        <h2 id="titulo">Cargando...</h2>
-        <div id="lista"></div>
+        <header>
+            <a href="index.html" class="back-link">← Volver al menú principal</a>
+            <h2 id="titulo-bonito">APINAC Lists - Archivo</h2>
+            <span id="sub-info" class="info-label">Cargando lista...</span>
+        </header>
+        
+        <div id="estudiante-list" class="estudiante-list">
+            </div>
     </div>
+    
     <script src="datos.js"></script>
     <script>
         const params = new URLSearchParams(window.location.search);
         const lId = params.get('lista');
-        document.getElementById('titulo').innerText = lId.replace('_', ' ').toUpperCase();
-        const cont = document.getElementById('lista');
-        baseDeDatos[lId].forEach(id => {
-            const p = sujetos[id];
-            cont.innerHTML += `<div class="card"><span>${p.nombre}</span><button onclick="location.href='perfil.html?lista=${lId}&id=${id}'">Ficha</button></div>`;
-        });
+        
+        // --- AQUÍ ESTÁ EL TRADUCTOR CLAVE ---
+        // Estos nombres deben coincidir EXACTAMENTE con image_0.png
+        const nombresDeLista = {
+            "sexto_tigre": "6to Grado \"D\" - UE \"El Tigre\"",
+            "primero_bello": "1er Año \"U\" - UEIP \"Andrés Bello\"",
+            "segundo_bello": "2do Año \"U\" - UEIP \"Andrés Bello\"",
+            "soulsnow_family": "Soulsnow's Family"
+        };
+        
+        const subInfoLista = {
+            "sexto_tigre": "Para recordar esos tiempos.",
+            "primero_bello": "El Archivo de la primera.",
+            "segundo_bello": "Nuestra etapa actual.",
+            "soulsnow_family": "La Familia."
+        };
+
+        const tituloContenedor = document.getElementById('titulo-bonito');
+        const subInfoContenedor = document.getElementById('sub-info');
+        const listaContenedor = document.getElementById('estudiante-list');
+
+        if (baseDeDatos[lId] && nombresDeLista[lId]) {
+            // Aplicamos el nombre bonito y la sub-info
+            tituloContenedor.innerText = nombresDeLista[lId];
+            subInfoContenedor.innerText = subInfoLista[lId];
+            
+            // Cargamos los estudiantes
+            baseDeDatos[lId].forEach(id => {
+                const p = sujetos[id];
+                if (p) {
+                    listaContenedor.innerHTML += `
+                        <div class="card-estudiante">
+                            <span class="nombre-label">${p.nombre}</span>
+                            <button class="btn-ficha" onclick="location.href='perfil.html?lista=${lId}&id=${id}'">Ver Ficha</button>
+                        </div>
+                    `;
+                }
+            });
+        } else {
+            tituloContenedor.innerText = "Error: Lista no encontrada";
+            subInfoContenedor.innerText = "";
+        }
     </script>
 </body>
 </html>
