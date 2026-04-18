@@ -89,10 +89,20 @@
                     </div>
                     
 ${s.extra ? `
-    <div class="section-title">Cuentas Secundarias / Respaldo</div>
-    <div class="red-social-card" style="border-color: #444;">
-        <p style="font-size: 0.9rem; color: #fff; margin: 0;">${s.extra}</p>
-    </div>
+    <div class="section-title">Otras Cuentas</div>
+    ${s.extra.map(red => `
+        <div class="red-social-card" style="border-left: 3px solid var(--accent);">
+            <div class="social-header">
+                <div>
+                    <span class="label">${red.plataforma}</span>
+                    <span class="valor"><b>${red.nombre}</b></span>
+                </div>
+                <div class="badge-container">${createBadges(red.status)}</div>
+            </div>
+            <span class="label">Usuario</span>
+            <span class="valor">${red.user}</span>
+        </div>
+    `).join('')}
 ` : ''}
 
                     <div class="section-title">Observaciones de Campo</div>
