@@ -87,9 +87,9 @@
                         </div>
                         <span class="label">Nombre de Usuario</span><span class="valor">${s.rb_user}</span>
                     </div>
-                    
-${s.extra ? `
-    <div class="section-title">Otras Cuentas</div>
+
+            ${(s.extra && s.extra.length > 0) ? `
+    <div class="section-title">Otras Cuentas / Respaldo</div>
     ${s.extra.map(red => `
         <div class="red-social-card" style="border-left: 3px solid var(--accent);">
             <div class="social-header">
