@@ -27,27 +27,119 @@ const sujetos = {
     "enrique_6": { nombre: "Enrique", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Archivo 6to", actualizado: "18/04/2026" },
 
     // --- BACHILLERATO ---
-    "abdias_v": { nombre: "Abdias Vicent", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "alejandra_o": { nombre: "Alejandra Osuna", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "alondra_c": { nombre: "Alondra Castillo", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "camila_p": { nombre: "Camila Pereira", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "constanza_c": { nombre: "Constanza Cabeza", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "daniel_e": { nombre: "Daniel Escalona", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "daniela_d": { nombre: "Daniela Dominguez", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "david_v": { nombre: "David Velázquez", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "fabianna_v": { nombre: "Fabianna Viloria", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "genio_g": { nombre: "Genio García", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "hector_r": { nombre: "Héctor Ruiz", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "hector_v": { nombre: "Héctor Velázquez", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
+    "abdias_v": { 
+        nombre: "Abdias Vicent", alias: "---", tlf: "+58 412-1917203", cumple: "27 de enero", 
+        tt_name: "soyadoxrandom27", tt_user: "str_xkcct", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "abdias vicent", ig_user: "arvicent27", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026",
+        extra: [ { plataforma: "Instagram Secundario", nombre: "_ARvicent.mpa", user: "_arvicent.mpa", status: "Verificada, Pública, Inactiva" } ]
+    },
+    "alejandra_o": { 
+        nombre: "Alejandra Osuna", alias: "---", tlf: "+58 422-4257062", cumple: "13 de julio", 
+        tt_name: "suna", tt_user: "alejdra..osn", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "𝓪𝓵𝓮𝓳.𝓸𝓼𝓾𝓷", ig_user: "alejdraosn", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "alondra_c": { 
+        nombre: "Alondra Castillo", alias: "---", tlf: "+58 412-6533673", cumple: "26 de noviembre", 
+        tt_name: "aloalo", tt_user: "aloalo_av", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "Aloo☆", ig_user: "alo._.2611", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026",
+        extra: [ { plataforma: "TikTok Secundario", nombre: "Alo★", user: "aloo._.26a", status: "Verificada, Privada, Inactiva" } ]
+    },
+    "camila_p": { 
+        nombre: "Camila Pereira", alias: "---", tlf: "+58 424-8720402", cumple: "15 de agosto", 
+        tt_name: "🛍♬ଘ𝐶𝑎𝑚𝑖ଘ♬🍡", tt_user: "perita_1215", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "---", ig_user: "---", ig_st: "No Verificada", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "constanza_c": { 
+        nombre: "Constanza Cabeza", alias: "---", tlf: "+58 424-8061770", cumple: "6 de septiembre", 
+        tt_name: "costii", tt_user: "costi_46", tt_st: "Verificada, Principal, Pública, Activa", 
+        ig_name: "Constanza Cabeza", ig_user: "costi_463", ig_st: "Verificada, Principal, Privada, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026",
+        extra: [ 
+            { plataforma: "TikTok 2", nombre: "costii", user: "costi_40", status: "Verificada, Secundaria, Privada, Activa" },
+            { plataforma: "TikTok 3", nombre: "Costi_589", user: "costi_589", status: "Verificada, Secundaria, Privada, Activa" },
+            { plataforma: "TikTok 4", nombre: "idk", user: "costii658", status: "Verificada, Secundaria, Privada, Activa" },
+            { plataforma: "Instagram 2", nombre: "costiii", user: "costii_44", status: "Verificada, Secundaria, Privada, Activa" }
+        ]
+    },
+    "daniel_e": { nombre: "Daniel Escalona", alias: "---", tlf: "+58 424-8622220", cumple: "25 de junio", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
+    "daniela_d": { 
+        nombre: "Daniela Dominguez", alias: "---", tlf: "+58 412-0281716", cumple: "27 de noviembre", 
+        tt_name: "🪐✮⋆˙", tt_user: "dannnnm497", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "---", ig_user: "dani.ii778", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "david_v": { 
+        nombre: "David Velázquez", alias: "---", tlf: "+58 416-2656943", cumple: "31 de mayo", 
+        tt_name: "davi", tt_user: "deiv77", tt_st: "No Verificada, Pública, Activa", 
+        ig_name: "---", ig_user: "---", ig_st: "No Verificada", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "fabianna_v": { 
+        nombre: "Fabianna Viloria", alias: "---", tlf: "+58 412-1038174", cumple: "5 de marzo", 
+        tt_name: "Taekjoo", tt_user: "taekjoo.vb", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "𝓥𝓲𝓵𝓸𝓻𝓲𝓪", ig_user: "taekjoo.vb", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "genio_g": { 
+        nombre: "Genio García", alias: "---", tlf: "+58 412-3898138", cumple: "10 de mayo", 
+        tt_name: "Genito", tt_user: "genito29", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "Genito", ig_user: "genito10.05.12", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "hector_r": { nombre: "Héctor Ruiz", alias: "---", tlf: "+58 414-9812809", cumple: "5 de enero", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
+    "hector_v": { 
+        nombre: "Héctor Velázquez", alias: "---", tlf: "+1 (341) 243-5691", cumple: "17 de noviembre", 
+        tt_name: "HECTOR", tt_user: "nnose_v", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "HECTOR", ig_user: "nnose_0", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
     "jadasa_m": { nombre: "Jadasa Mayz", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
     "josnel_g": { nombre: "Josnel Guerra", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "kaolineth_c": { nombre: "Kaolineth Castro", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "lucia_r": { nombre: "Lucía Rios", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Investigación en curso", actualizado: "18/04/2026" },
-    "luis_rene_p": { nombre: "Luís René Prado", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
-    "moises_g": { nombre: "Moisés Guerra", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
+    "kaolineth_c": { 
+        nombre: "Kaolineth Castro", alias: "---", tlf: "+58 412-8565554", cumple: "25 de julio", 
+        tt_name: "💗Kana Arima💗", tt_user: "kana_arina63", tt_st: "Verificada, Privada, Activa", 
+        ig_name: "---", ig_user: "---", ig_st: "No Verificada", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "lucia_r": { nombre: "Lucía Rios", alias: "---", tlf: "+58 416-3686044", cumple: "19 de noviembre", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Investigación en curso", actualizado: "18/04/2026" },
+    "luis_rene_p": { 
+        nombre: "Luís René Prado", alias: "---", tlf: "+58 424-8101350", cumple: "19 de julio", 
+        tt_name: "1970 WW beetle", tt_user: "1970_vw_beetle", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "1991 mazda miata", ig_user: "1991.mazda.miata", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
+    "moises_g": { 
+        nombre: "Moisés Guerra", alias: "---", tlf: "+58 426-3825010", cumple: "27 de septiembre", 
+        tt_name: "---", tt_user: "odisez_mg7", tt_st: "Verificada, Privada, Activa", 
+        ig_name: "Tsuki", ig_user: "mg.2tsk7", ig_st: "Verificada, Pública, Activa", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
     "mauricio_v": { nombre: "Mauricio Villasana", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Solo 1er año", actualizado: "18/04/2026" },
     "paula_q": { nombre: "Paula Quijada", alias: "Mahi / Rain", tlf: "+58 424-8198382", cumple: "08 de septiembre", tt_name: "✶ 𓋜 𝓜𝘢𝙝𝘪 ♥︎ 𝓢 𝘪𝙢𝘰 ˙ Ꮺ", tt_user: "m.m4hicore", tt_st: "Verificada, Pública, Activa", ig_name: "Mahi (Simo's Husband)", ig_user: "m.mah1core", ig_st: "Verificada, Pública, Activa", rb_name: "Loki", rb_user: "r3liz_c", rb_st: "Verificada, Activa", nota: "Soulter Mahi de los Shizukesa", actualizado: "18/04/2026" },
-    "ricardo_o": { nombre: "Ricardo Olivier", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" },
+    "ricardo_o": { 
+        nombre: "Ricardo Olivier", alias: "---", tlf: "+58 414-3955330", cumple: "9 de junio", 
+        tt_name: "RICAR~~", tt_user: "ricardiviri1", tt_st: "Verificada, Pública, Activa", 
+        ig_name: "---", ig_user: "---", ig_st: "No Verificada", 
+        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+    },
     "santiago_q": { nombre: "Santiago Quijada", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Solo 1er Año", actualizado: "18/04/2026" },
     "adelybert_g": { nombre: "Adelybert González", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Ingreso en 2do Año", actualizado: "18/04/2026" },
     "luna_l": { nombre: "Luna López", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Ingreso en 2do Año", actualizado: "18/04/2026" },
@@ -62,9 +154,4 @@ const sujetos = {
 };
 
 const baseDeDatos = {
-    "sexto_tigre": ["ana_6", "samuel_6", "wuender_6", "santiago_b_6", "emiliana_6", "andres_6", "misael_6", "matias_6", "alexa_6", "luis_6", "josue_6", "mauricio_v_6", "yuliannys_6", "isabella_6", "alexandra_6", "antonella_6", "nehomar_6", "adriana_6", "victoria_m_6", "vivianne_6", "dannymar_6", "juan_6", "gael_6", "santiago_v_6", "enrique_6", "bubbly"],
-    "primero_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "mauricio_v", "paula_q", "ricardo_o", "santiago_q", "bubbly"],
-    "segundo_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "paula_q", "ricardo_o", "adelybert_g", "luna_l", "bubbly"],
-    "soulsnow_family": ["paula_q", "jose_f", "bubbly", "max_f", "val_f", "mayday_f", "bal_f"]
-};
-                 
+    "sexto_tigre": ["ana_6", "samuel_6", "wuender_6", "santiago_b_6", "emiliana_6", "andres_6", "misael_6", "matias_6", "alexa_6", "luis_6", "josue_6", "mauricio_v_6", "yuliannys_6", "isabella_6", "alexandra_6", "antonella_6", "nehomar_6", "adriana_6", "victori
