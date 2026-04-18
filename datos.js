@@ -132,7 +132,7 @@ const sujetos = {
         nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
     },
     "mauricio_v": { nombre: "Mauricio Villasana", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Solo 1er año", actualizado: "18/04/2026" },
-    "paula_q": { nombre: "Paula Quijada", alias: "Mahi / Rain", tlf: "+58 424-8198382", cumple: "08 de septiembre", tt_name: "✶ 𓋜 𝓜𝘢𝙝𝘪 ♥︎ 𝓢 𝘪𝓶𝘰 ˙ Ꮺ", tt_user: "m.m4hicore", tt_st: "Verificada, Pública, Activa", ig_name: "Mahi (Simo's Husband)", ig_user: "m.mah1core", ig_st: "Verificada, Pública, Activa", rb_name: "Loki", rb_user: "r3liz_c", rb_st: "Verificada, Activa", nota: "Soulter Mahi de los Shizukesa", actualizado: "18/04/2026" },
+    "paula_q": { nombre: "Paula Quijada", alias: "Mahi / Rain", tlf: "+58 424-8198382", cumple: "08 de septiembre", tt_name: "✶ 𓋜 𝓜𝘢𝙝𝘪 ♥︎ 𝓢 𝘪𝓶𝓸 ˙ Ꮺ", tt_user: "m.m4hicore", tt_st: "Verificada, Pública, Activa", ig_name: "Mahi (Simo's Husband)", ig_user: "m.mah1core", ig_st: "Verificada, Pública, Activa", rb_name: "Loki", rb_user: "r3liz_c", rb_st: "Verificada, Activa", nota: "Soulter Mahi de los Shizukesa", actualizado: "18/04/2026" },
     "ricardo_o": { 
         nombre: "Ricardo Olivier", alias: "---", tlf: "+58 414-3955330", cumple: "9 de junio", 
         tt_name: "RICAR~~", tt_user: "ricardiviri1", tt_st: "Verificada, Pública, Activa", 
@@ -146,7 +146,7 @@ const sujetos = {
 
     // --- SOULSNOW FAMILY ---
     "jose_f": { nombre: "José Freites", alias: "Simo / John - 👽", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Family", actualizado: "18/04/2026" },
-    "bubbly": { nombre: "Aaron Pinto", alias: "Bubbly - 🫧", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "El Creador del Grupo APINAC.", actualizado: "18/04/2026", extra: [ {  plataforma: "TikTok Secundario",  nombre: "Nombre Extra", user: "@usuario_2",  status: "No Verificada, Activa, Privada"  } ] },
+    "bubbly": { nombre: "Aaron Pinto", alias: "Bubbly - 🫧", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "El Creador del Grupo APINAC.", actualizado: "18/04/2026", extra: [ { plataforma: "TikTok Secundario", nombre: "Nombre Extra", user: "@usuario_2", status: "No Verificada, Activa, Privada" } ] },
     "max_f": { nombre: "Max", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Family", actualizado: "18/04/2026" },
     "val_f": { nombre: "Val/Fan", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Family", actualizado: "18/04/2026" },
     "mayday_f": { nombre: "Mayday/Winter", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Family", actualizado: "18/04/2026" },
@@ -154,4 +154,8 @@ const sujetos = {
 };
 
 const baseDeDatos = {
-    "sexto_tigre": ["ana_6", "samuel_6", "wuender_6", "santiago_b_6", "emiliana_6", "andres_6", "misael_6", "matias_6", "alexa_6", "luis_6", "josue_6", "mauricio_v_6", "yuliannys_6", "isabella_6", "alexandra_6", "antonella_6", "nehomar_6", "adriana_6", "victori
+    "sexto_tigre": ["ana_6", "samuel_6", "wuender_6", "santiago_b_6", "emiliana_6", "andres_6", "misael_6", "matias_6", "alexa_6", "luis_6", "josue_6", "mauricio_v_6", "yuliannys_6", "isabella_6", "alexandra_6", "antonella_6", "nehomar_6", "adriana_6", "victoria_m_6", "vivianne_6", "dannymar_6", "juan_6", "gael_6", "santiago_v_6", "enrique_6", "bubbly"],
+    "primero_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "mauricio_v", "paula_q", "ricardo_o", "santiago_q", "bubbly"],
+    "segundo_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "paula_q", "ricardo_o", "adelybert_g", "luna_l", "bubbly"],
+    "soulsnow_family": ["paula_q", "jose_f", "bubbly", "max_f", "val_f", "mayday_f", "bal_f"]
+};
