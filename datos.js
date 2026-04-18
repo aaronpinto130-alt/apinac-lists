@@ -50,18 +50,19 @@ const sujetos = {
     "santiago_q": { nombre: "Santiago Quijada", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Solo 1er Año" },
     "adelybert_g": { nombre: "Adelybert González", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Ingreso en 2do Año" },
     "luna_l": { nombre: "Luna López", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Ingreso en 2do Año" },
-    "mauricio_v": { nombre: "Mauricio Villasana", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Ingreso en 2do Año" },
+    "mauricio_v": { nombre: "Mauricio Villasana", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Solo 1er año" },
     // SOULSNOW FAMILY EXCLUSIVOS
     "jose_f": { nombre: "José Freites - Simo/John", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" },
     "bubbly": { nombre: "Bubbly", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" },
     "max_f": { nombre: "Max", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" },
     "val_f": { nombre: "Val/Fan", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" },
     "mayday_f": { nombre: "Mayday/Winter", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" }
+    "bal_f": { nombre: "Bal/Kyom", cumple: "---", tlf: "---", ig: "---", ig_st: "---", tt: "---", tt_st: "---", rb: "---", nota: "Family" }
 };
 
 const baseDeDatos = {
     "sexto_tigre": ["ana_6", "samuel_6", "wuender_6", "santiago_b_6", "emiliana_6", "andres_6", "misael_6", "matias_6", "alexa_6", "luis_6", "josue_6", "mauricio_v_6", "yuliannys_6", "isabella_6", "alexandra_6", "antonella_6", "nehomar_6", "adriana_6", "victoria_m_6", "vivianne_6", "dannymar_6", "juan_6", "lucia_r", "gael_6", "santiago_v_6", "enrique_6"],
     "primero_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "mauricio_v_6", "paula_q", "ricardo_o", "santiago_q"],
     "segundo_bello": ["abdias_v", "alejandra_o", "alondra_c", "camila_p", "constanza_c", "daniel_e", "daniela_d", "david_v", "fabianna_v", "genio_g", "hector_r", "hector_v", "jadasa_m", "josnel_g", "kaolineth_c", "lucia_r", "luis_rene_p", "moises_g", "paula_q", "ricardo_o", "adelybert_g", "luna_l"],
-    "soulsnow_family": ["paula_q", "jose_f", "bubbly", "max_f", "val_f", "mayday_f"]
+    "soulsnow_family": ["paula_q", "jose_f", "bubbly", "bal_f, "max_f", "val_f", "mayday_f"]
 };
