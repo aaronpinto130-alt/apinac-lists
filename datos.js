@@ -53,8 +53,8 @@ const sujetos = {
     "camila_p": { 
         nombre: "Camila Pereira", alias: "---", tlf: "+58 424-8720402", cumple: "15 de agosto", 
         tt_name: "🛍♬ଘ𝐶𝑎𝑚𝑖ଘ♬🍡", tt_user: "perita_1215", tt_st: "Verificada, Pública, Activa", 
-        ig_name: "---", ig_user: "---", ig_st: "No Verificada", 
-        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
+        ig_name: "---", ig_user: "---", ig_st: "Inexistente", 
+        rb_name: "Aliengirl", rb_user: "Sua_Aliengirl", rb_st: "Verificada, Activa", 
         nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
     },
     "constanza_c": { 
