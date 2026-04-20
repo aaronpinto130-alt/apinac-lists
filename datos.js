@@ -125,11 +125,11 @@ const sujetos = {
         nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
     },
     "moises_g": { 
-        nombre: "Moisés Guerra", alias: "---", tlf: "+58 426-3825010", cumple: "27 de septiembre", 
+        nombre: "Moisés Guerra", alias: "---", tlf: "+58 422-1111294", cumple: "27 de septiembre", 
         tt_name: "---", tt_user: "odisez_mg7", tt_st: "Verificada, Privada, Activa", 
         ig_name: "Tsuki", ig_user: "mg.2tsk7", ig_st: "Verificada, Pública, Activa", 
-        rb_name: "---", rb_user: "---", rb_st: "No Verificada", 
-        nota: "Estudiante de 1ro y 2do", actualizado: "18/04/2026" 
+        rb_name: "Aryu", rb_user: "Impostorsito19999", rb_st: "Verificada, Activa", 
+        nota: "Estudiante de 1ro y 2do", actualizado: "20/04/2026" 
     },
     "mauricio_v": { nombre: "Mauricio Villasana", alias: "---", tlf: "---", cumple: "---", tt_name: "---", tt_user: "---", tt_st: "No Verificada", ig_name: "---", ig_user: "---", ig_st: "No Verificada", rb_name: "---", rb_user: "---", rb_st: "No Verificada", nota: "Solo 1er año", actualizado: "18/04/2026" },
     "paula_q": { nombre: "Paula Quijada", alias: "Mahi/Rain - 🎨/🍷/🌧️/🪽", tlf: "+58 424-8198382", cumple: "08 de septiembre", tt_name: "✶ 𓋜 𝓜𝘢𝙝𝘪 ♥︎ 𝓢 𝘪𝙢𝘰 ˙ Ꮺ", tt_user: "m.m4hicore", tt_st: "Verificada, Pública, Activa", ig_name: "Mahi (Simo's Husband)", ig_user: "m.mah1core", ig_st: "Verificada, Pública, Activa", rb_name: "Loki", rb_user: "r3liz_c", rb_st: "Verificada, Activa", nota: "Nombre Completo: Soulter Mahi de los Shizukesa", actualizado: "18/04/2026", extra: [ { plataforma: "TikTok 2", nombre: "𓏵 𝓡  𓍼 ( 𝓙ohn's version) ♥", user: "jn.husb4nddz", status: "Verificada, Pública, Inactiva" } ] },
